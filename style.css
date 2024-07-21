@@ -31,7 +31,12 @@ body {
 }
 
 canvas {
-  border: solid 1px green;
+  width: 100%;
+}
+
+.canvas-wrapper {
+  width: 100vw;
+  height: 75vw;
 }
 
 @media (prefers-color-scheme: light) {
